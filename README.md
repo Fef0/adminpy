@@ -10,7 +10,7 @@ IMPORTANT: In Pyinstaller, remember to delete all "print" function before compil
  ------------------------------------------------------------------
 # Example
 
-import adminpy
+import adminpy\n
 import sys
 
 def mainfunction():
