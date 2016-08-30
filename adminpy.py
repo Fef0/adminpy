@@ -12,7 +12,7 @@ import sys
 import win32com.shell.shell as shell
 
 def isUserAdmin():
-    if os.name == 'nt':
+    if os.name == 'nt': # If is running on Windows
         import ctypes
         try:
             return ctypes.windll.shell32.IsUserAnAdmin()
@@ -26,7 +26,7 @@ def isUserAdmin():
         root.withdraw()
         tkMessageBox.showerror('Error!', 'This tool is for Windows only!')
     
-def AsAdmin(arg=None):
+def AsAdmin(arg=None): #Open .exe file
     ASADMIN = 'asadmin'
     file2open=arg
     if sys.argv[-1] != ASADMIN:
