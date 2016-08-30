@@ -1,6 +1,14 @@
 # Adminpy
+
 Tested only in Python 2.7 and Pyinstaller 3.2!
 IMPORTANT: In Pyinstaller, remember to delete all "print" function before compile it!
+ ------------------------------------------------------------------
+|Open Windows executable with admin rights in Python!              |
+|:copyright: (c) 2016 Fef0:                                        |
+|:Thanks to Jorenko from stackoverflow.com for "AsAdmin" function: |
+|:Based on Preston Landers "pyuac" work:                           |
+|:license: GNU General Public License v3.0:                        |
+ ------------------------------------------------------------------
 
 # Example
 
