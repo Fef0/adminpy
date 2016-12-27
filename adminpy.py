@@ -17,7 +17,6 @@ def isUserAdmin():
         try:
             return ctypes.windll.shell32.IsUserAnAdmin()
         except:
-            traceback.print_exc()
             return False
     else:
         #Open a Tkinter instance with error if the machine isn't running Windows.
